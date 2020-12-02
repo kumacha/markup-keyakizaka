@@ -1,0 +1,15 @@
+.slideshow ol{
+    scroll-snap-type:  x mandatory;
+    white-space: nowrap;
+    overflow: auto;
+}
+.slideshow li{
+    scroll-snap-align: center;
+    display: inline-block;
+    width: 20%;
+    white-space: normal;
+}
+.slideshow img{
+    width: 100%;
+    height: auto;
+}
